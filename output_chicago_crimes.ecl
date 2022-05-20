@@ -1,7 +1,7 @@
 ﻿IMPORT $;
 
 //convencional
-OUTPUT($.ChicagoCrimes.File);
+OUTPUT($.ChicagoCrimesOptimized.File);
 
 // alternativo
 //$.ChicagoCrimes.File;
