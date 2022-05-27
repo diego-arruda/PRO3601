@@ -1,4 +1,6 @@
 {
     "ecl.launchConfiguration": "OracleVM",
-    "ecl.targetCluster": {}
+    "ecl.targetCluster": {
+        "OracleVM": "thor"
+    }
 }
