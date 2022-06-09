@@ -1,6 +1,9 @@
 
-EXPORT ChicagoCrimesOptimized := MODULE
+EXPORT CrimesTransformed := MODULE
 	EXPORT Layout := RECORD
+        unsigned8 row_id;
+        string formatted_date;
+        string formatted_time;
 	    UNSIGNED8 id;
         STRING8 case_number;
         STRING22 date;
@@ -24,6 +27,6 @@ EXPORT ChicagoCrimesOptimized := MODULE
         REAL8 longitude;
         STRING29 location;
     END;
-	EXPORT File := DATASET('~class::intro::dma::crimes',Layout, CSV(HEADING( 1 )));
+	EXPORT File := DATASET('~class::dma::persist::chicagocrimestransformed__p432596496',Layout,FLAT);
 END;
 

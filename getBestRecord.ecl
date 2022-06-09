@@ -1,15 +1,12 @@
 IMPORT $,STD;
 
-Crimes := $.ChicagoCrimes.File;
+// Crimes := $.ChicagoCrimes.File;
 
-bestrecord := STD.DataPatterns.BestRecordStructure(Crimes);
+// bestrecord := STD.DataPatterns.BestRecordStructure(Crimes);
 
-OUTPUT(bestrecord, ALL, NAMED('BestRecord'));
+// OUTPUT(bestrecord, ALL, NAMED('BestRecord'));
 
-
-
-
-
+$.ChicagoCrimesTransformed;
 
 
 
