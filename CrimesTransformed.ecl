@@ -2,8 +2,8 @@
 EXPORT CrimesTransformed := MODULE
 	EXPORT Layout := RECORD
         unsigned8 row_id;
-        string formatted_date;
-        string formatted_time;
+        string8 formatted_date;
+        string6 formatted_time;
 	    UNSIGNED8 id;
         STRING8 case_number;
         STRING22 date;

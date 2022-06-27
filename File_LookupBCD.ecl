@@ -7,5 +7,7 @@ EXPORT File_LookupBCD := MODULE
 	END;
 	SHARED Filename := '~~CLASS::DMA::OUT::LookupBCD';
 	EXPORT File := DATASET(Filename,Layout,FLAT);
+
+	EXPORT IDX_BCD := INDEX(File,{block,community_area,district}, {File}, '~class::dma::KEY::bcd');
 	
 END;

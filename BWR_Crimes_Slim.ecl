@@ -14,3 +14,4 @@ SlimRecs := JOIN($.CrimesTransformed.File,$.File_LookupBCD.File,
 
 OUTPUT(SlimRecs,,'~CLASS::dma::OUT::Crimes_Slim',overwrite);
 
+// EXPORT BWR_Crimes_Slim := SlimRecs;
